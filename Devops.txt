@@ -1,0 +1,153 @@
+1.Devops=> Dev + opos=>development and operations
+replacing complex pipeline with automated  transparant pipeline 
+continious integrations
+continious development
+2.Devops tools:
+Jenkins
+ansble
+puppet
+Docker
+kubernet
+linux or unix
+DEvopps session:
+Zoom link date09-05-2023 :https://us06web.zoom.us/j/88960981992?pwd=Mm9NNWplSE5TU2dQUzYrMkY1ZlJNQT09
+git credentials:
+anandbeemavarapu@gmail.com / git@1122
+
+04-05-2023:
+------------
+1.Manual process replaced with automation process on top of hundres of servers.
+by using belos tools
+  1.Checf =>push model
+  2.Aansible =>pull model
+Ansible
+loadbalncer=> handles the load and distribute load equally
+shell script: shell is a program to execuste group of linux command.
+problem is consistency
+CM(configuration management)=> its hve consistency
+
+push modle=>cm communication with prod server nothing push model by using ssh/user
+pull model => prod servert communication with configuration model nothing but pull model. by using Agent
+
+  Four op 4 poplar tools to CM is 
+  Ansible ,salt => push model
+  Checf,puppet =>pull model
+CM server can understand only files. with help of IAC (infrastucture as code)
+Yml  and Ruby format 
+provisioning => provide suitable environments for deploying applications
+ex:test,prod
+install softwares
+creating files and folder
+creating users and groups
+change config files
+deploying applications
+
+06-05-2023:
+-----------
+
+operting system: its is interface between end user and computer hardware devices
+single user- single task ex:ms-dos
+single user- multi tasking ex:windows
+multi user - multi tasking ex:unix,linux
+su -switch user
+1.create folder:
+mkdir <folder Name> 
+2.create file
+cate <file Name>
+
+3.copy file
+cp -r <source file location> <
+destination file location>
+4.rm <filename>
+ rm -rf <foldername>
+vi is a editor in linux
+
+
+
+apt-get install apache2
+vi sudo is the configuration file
+ctr+x then enter y
+suto apt-get install apache2
+
+ssh pwd less authentication
+
+master server login into other node servers
+should not use pem file and pws
+pem file nothing but it having private key
+09-05-2023:
+-----------
+SSH pwd less authentication
+---------------------------
+1.configure master server
+2.configure node servers
+3. communicate master to user without pem file pwd
+
+How to configure master server
+ a. create awt server with ubuntu2.0 server, t2 micro
+ b. by using git bash and pem file we can getting into the server
+ c. swich to root user => $sudo -i
+ d. need to update new server =>#apt-get update
+ e. add user => #adduser <user name>
+                  then set pwd
+ f. make it sudo user =>#visudo
+       vivek ALL=(ALL) NOPASSWD:ALL
+       ctr+X ,yes,press Enter
+ g. vi /etc/ssh/sshd_config       (without pem, with pwd)
+     Passwordauthenitcation yes
+     shift + : wq!
+ h.to reflect out changes need to restart server
+   $service SSH restart
+
+same steps to configure NODE server
+
+3.communicate master to node without pem file pwd on master as vivek
+$sudo -i
+#su maha   (# is nothing but root user,$ is nothing but normal user)
+$cd (change directory)
+$pwd =>(/home/maha)
+ssh-keygen =>it will genereate two keys one private and public
+ssh-copy-id <private ip of nodes ex:172.31.89.156>
+           for teh first time it sis asking pwd so,enter pwd
+ssh <private ip of node server> (without pwd ,without pwd)
+exit
+again=> ssh <private ip of node server>
+       now it wont ask any pwd to ask
+https://drive.google.com/file/d/1uppowMJci69ADxqIF1J05UPIu8BQ6-8x/view?usp=share_link
+
+10-05-2023:
+-----------
+Git version control
+
+Git usage : for each and every change we can able to create code version
+1.create a github account and login
+2.create a token it is just like your pwd
+3.create a new Repository on github
+4.install git on your laptop
+5.create folder and open folder
+6.inside folder open gitbash and execute below commands(only once)
+  echo "# myGit10052023" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+    git config --global user.name "Your Name"
+    git config --global user.email "youremail@yourdomain.com"
+  git branch -M main
+  git remote add origin https://github.com/BeemavarapuVivek/myGit10052023.git
+  git push -u origin main
+
+7.for remaning every change we have to execute below commands
+ git add -A
+ git commit -m "comment"
+ git push
+
+What is Ansible
+it is configuration management, simple it automation build tool,
+it use play books
+to create infrastructure as code
+for deploying suitable env
+https://drive.google.com/file/d/14FnvOdcwTBUJw-3ChoQOrmz0s--fKw6n/view?usp=share_link
+11-05-2023:
+-----------
+git uname/pwd: anandbeemavarapu@gmail.com /git@1122
+generate token =>click on profile => click on settings => developer settings=> personal access token =>select token(classic) =>generate     new token.
+git key =>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

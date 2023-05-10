@@ -1,0 +1,294 @@
+google Drve link for sessions=> bit.ly/3hY9Owp 
+zoom link:
+https://us06web.zoom.us/j/87667432191?pwd=cWpSTmxWeklhdG9BUjJEK3QyZ2ZSQT09
+
+
+1. Access resource over internet is called cloud computing
+You can use the below link to pay .
+Razor Pay Payment Link :…
+1.Day2:
+CPE => cloud practice essential
+AWS Designations
+-----------------
+AWS account: anandbeemavarapu@gmail.com/anand@1122
+1.AWS solution architect
+2.AWS Developer
+3.AwS System operation Associtate
+
+https://nareshit.zoom.us/j/81580748143
+https://login.us-east-1.auth.skillbuilder.aws/login?redirect_uri=https://www.aws.training/LogOnV2/Response&client_id=3ngs935m8cnns64p4m2sm3hsta&response_type=code&scope=openid&state=/
+021641427352 =Account Id for amazon cloud
+
+The main model for cloud computing
+IAAS infrastructure as service
+PAAS plat form as service
+SAAS sofware as service
+
+DURGA SOFT BATCH:Morning 7AM
+-----------------------------
+06-04-2023
+----------
+cloud having 4 modules
+vpc nothing but network
+EC2 instances or servers
+S3 nothing but storage
+RDS nothing but database
+https://drive.google.com/file/d/1zglyDlVsT83zT0oBINI5vC9aeHikS1qR/view?usp=share_link
+Network basis
+Network=>if we can communicate b/w more than two device nothing but network
+static network=> its fixed network
+Dynamic network => automatically happen
+IP=>
+networkid=>
+subnetwork=>
+classful network
+classness network
+Router =>Nothing but network Ex:Road
+Modem  =>Nothing but internet EX:vehical
+Private Ip => withing the same net work, we can able to communicate other device => laptop
+public Ip => we can communicate two device with different network => flipcart server
+
+   we can able to communicate private to private
+   we can able to communicate public to public
+   but to communicate from private to public we need NAT
+   i.e NAT(Network access translater) is like translater to private to public
+    which is maintained by network providers
+  so 
+what is difference b/w public ip Private Ip
+What is NAT => network access translater
+What is Sunetting 
+IP means =>
+class C =>End User
+------------------
+Each and every ip has 4 decimals
+Each and every decimal is an octa (8)
+A 32 bit of octa decimal unical(unique) identification number per a device(computer) on same network
+or 
+32 bit address,used to uniquely identify computer on network
+
+ex:192.168.0.1 
+255.255.255.0
+8+8+8+8=>32
+4 decimals.
+ 
+total net work bits>
+IP4 Adress 192.168.0.119
+Network id => 192.168.0 
+Host Id =>119
+min 0 and max no is 255
+total 256 ips
+how to create IPs
+2^(total network bits-occupaid bits)-2=total ips
+2^(32-24)-2=>2^6=>256 ips
+
+
+
+10-04-2023
+----------
+https://drive.google.com/file/d/1ucq-aoQ3lmowtIAPlxy3cCTFKBNX0oDS/view?usp=share_link
+
+class B =>ISP:internet service provider
+--------------------------------------
+subnet mask=>255.255.0.0
+if subnet id change then network ip will change,host id will change
+total network=>8+8+0+0 =16 Ips
+Total ips =>2^(total network bits-occupaid bits)-2
+2^(32-16)-2=>2^16-2=>2^14=> 65,534 ips we can create
+
+IP4 Adress 192.168.185.72
+Network id => 192.168
+Host Id =>.185.72
+Ex: it will fallow analog
+255.255.0.0-255  =>ex:255.255.0.0,255.255.0.1,255.255.0.2 ..... 255.255.0.255
+255.255.1.0-255  =>ex:255.255.1.0,255.255.1.1,255.255.0.2 ..... 255.255.1.255
+255.255.2.0-255  =>ex:255.255.2.0,255.255.2.1,255.255.0.2 ..... 255.255.2.255
+255.255.3.0-255  =>ex:255.255.3.0,255.255.3.1,255.255.3.2 ..... 255.255.3.255
+..  .. .. ..
+..  .. .. ..
+255.255.255.0-255 =>ex:255.255.255.0,255.255.255.1,255.255.4.2 ..... 255.255.255.255
+
+
+
+class A =>Brodband(ex:TCS):
+------------------------
+subnet mask=>255.255.0.0
+if subnet id change then network ip will change,host id will change
+total network=>8+0+0+0 =8 Ips
+Total ips =>2^(total network bits-occupaid bits)-2
+2^(32-8)-2=>2^26-2=>2^24=> 16,777,214 ps ,we can create
+
+IP4 Adress 192.168.185.72
+Network id => 192
+Host Id =>168.185.72
+
+class full network 
+------------------
+it is a fixed network
+we can't change network
+we can't customize network
+it is use octa decimals 1's or 8's
+subnet mask=>255.255.0.0
+if subnet id change then network ip will change,host id will change
+total network=>8+0+0+0 =8 Ips
+Total ips =>2^(total network bits-occupaid bits)-2
+2^(32-8)-2=>2^26-2=>2^24=> 16,777,214
+
+IP4 Adress 192.168.185.72
+Network id => 192
+Host Id =>168.185.72
+
+
+11-04-2023
+----------
+https://drive.google.com/file/d/19I6n1Hb3a2Egwcjy9l8zyH606Sr_qFZf/view?usp=share_link
+classless net work=>
+------------------
+1.we can change network
+2.we can customize network
+3.its use binary farmat 0's and 1's
+tota net work bits 11111111+11111111+11111111+11111111=>32 bits
+Default network =192.168.0.1
+IPv4 Address ......192.168.185.72
+subnet mask .......255.255.255.0
+total network occupaid bits =>11111111+11111111+11111111+00000000=>24bits
+how may ips we can create >
+Total ips =>2^(total network bits-occupaid bits)-2
+2^(total network bits-occupaid bits)-2=total ips
+2^(32-24)-2=>2^6=>256 ips
+
+we change from right to left that is called CIDR=>Classless Inter Domain Route
+11111111+11111111+11111110+00000000=>23bits
+CIDR Range=> 23
+how may ips we can create >
+Total ips =>2^(total network bits-occupaid bits)-2
+2^(total network bits-occupaid bits)-2=total ips
+2^(32-24)-2=>2^6=>256 ips
+
+we can also check with subnet calculater,which is available at internet
+
+1.Router Nothing but network Ex:Road
+2.modem  Nothing but internet EX:vehical
+
+
+12-04-2023
+---------
+https://drive.google.com/file/d/1RnX_rI8nb0znyE5Wcto4L5jFlmaXaq-u/view?usp=share_link
+13-04-2023
+----------
+https://drive.google.com/file/d/17WtNWAGwS5EYWPdOq7EzKnwwNp9Nq01b/view?usp=share_link
+14-04-2023
+----------
+https://drive.google.com/file/d/1VlCr2PIVGQeS_xMQhkmy2OGajBDnQCcm/view?usp=share_link
+15-04-2023
+----------
+https://drive.google.com/file/d/1gQw8BjfJVfQx928bTneSl40aXN4q8WME/view?usp=share_link
+17-04-2023
+----------
+https://drive.google.com/file/d/1xt5GfrBIEpohIyfj-g5wEgHfOhZG3lzV/view?usp=share_link
+
+24.04.2023:
+----------
+https://drive.google.com/file/d/1VMdT9OwDfE78lsw1j8rWnrR3mFeaXj3f/view?usp=share_link
+cloud farmation is a template(json template)
+create vpc through cloud farmation
+login into aws account=>go to cloud farmation=>create stack=>give name=>next=>submit
+
+template have 4 parameters
+AWSTemplateFormationVersion
+Parameters
+Resources
+Output
+
+1.Resources:
+1.create vpc
+  type vpc and enter =>create
+2.create public subnet 
+  type publi then enter=> update this template in aws account
+3.create Router
+  type route-table  then enter => update this template in aws account
+4.Associatioin
+  type route-table-assoc
+5.create internetgateway
+  type int then enter =>
+6.create Routing
+  type route then enter
+
+
+
+25-04-2023:
+-----------
+https://drive.google.com/file/d/1MhsAAj1v7-OkNXb9rwct2nYOzqOUuln_/view?usp=share_link
+private Section
+1.create private subnet
+2.create private Route Table
+3.create private RouteTable Associateion
+4.create NAT Gatway
+there is no short cut.so google it like i.e aws::ec2::natgateway
+
+26-04-2023:
+----------
+https://drive.google.com/file/d/1YQ-6-iSRPYIqUD_NVdCW6HUDUfayXFJx/view?usp=share_link
+aws offers to database
+1.RDS=> it z a structural db
+2.Dynamo DB
+27-04-2023:
+----------
+https://drive.google.com/file/d/1HkvmQd-sdMd29jxEobIU3vVEa_z6iKRd/view?usp=share_link
+
+root/root1234
+create RDS and connect ,and create table
+how to create replica in read mode
+how to delete RDS and make replica RDS as RDS
+28-04-2023:
+----------
+https://drive.google.com/file/d/17PzweKqXfzNyzdbhm__MxaeJtmHAG8LY/view?usp=share_link
+how to create private RDS and login
+ssh tunneling with help of workbench
+by using mysql installer we can able to install workbench
+29-04-2023:
+----------
+Multi availability zone= 
+how to create RDS through CLI(command line i)
+30-04-2023:
+----------
+1.NQL no query loanguage
+Dynamo DB
+Amazon Elastic catche=>temporary storage area.
+static adat or frequently used data
+Ex: memCache
+    Redis
+
+
+
+1-2-04-2023:
+subnet=>
+13-04-2023:(AWS)
+---------------
+ 1.VPC(VIRTUAL PRIVATE CLOUD)
+Home Network
+------------
+internet=>modem=>Router/switch=>Firewall=>computer
+Firewall=>we can restrict traffic.which n/w have to acess or which is not access we can restrict with help of Firewall
+vpc network=>
+laptop=>gatway=>public modem=>public subnet=> public server
+laptop=>gatway=>private modem=> private subnet=> private server
+14-04-2023
+----------
+creation of public and private vps at aws
+aws account creation => successfully done 
+anandbeemavarapu@gmail.com/anand@1122
+git lab installation => successfylly done in local
+
+19-04-2023:
+-----------
+1.VPC peering:for private network to send huge amont of data speedly and securly
+ex blutooth
+ CIDR Range should be different
+ TWo VPCs in same region or dirrernet Region
+ Two VPCs in AWS Account or Different Account
+2.
+1
+192.168.0.0/22
+10.10.0.0/22
+
+-:
